@@ -1,7 +1,8 @@
 // pyramid_9.cpp : Defines the entry point for the console application.
 //
-#include<iostream>
+
 #include "stdafx.h"
+#include<iostream>
 
 using namespace std;
 int main()
@@ -22,9 +23,16 @@ int main()
 		{
 			cout << j << " ";
 		}
-
-
-
+		if (i != 1)
+		{
+			for (k = 2; k <= i; k++)
+				cout << k << " ";
+		}
+		cout << endl;
+		
 	}
+	cin >>rows;
+	return 0;
+
 }
 
