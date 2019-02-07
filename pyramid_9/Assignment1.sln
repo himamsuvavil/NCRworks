@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum_of_digit_10", "Sum_of_d
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate_a_number_12", "rotate_a_number_12\rotate_a_number_12.vcxproj", "{17F358F6-6313-4F59-A437-49A4342B7141}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwiseoperations_3c", "bitwiseoperations_3c\bitwiseoperations_3c.vcxproj", "{AE6A666F-483C-470D-9587-ECD91DD289B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{17F358F6-6313-4F59-A437-49A4342B7141}.Release|x64.Build.0 = Release|x64
 		{17F358F6-6313-4F59-A437-49A4342B7141}.Release|x86.ActiveCfg = Release|Win32
 		{17F358F6-6313-4F59-A437-49A4342B7141}.Release|x86.Build.0 = Release|Win32
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Debug|x64.ActiveCfg = Debug|x64
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Debug|x64.Build.0 = Debug|x64
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Debug|x86.Build.0 = Debug|Win32
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x64.ActiveCfg = Release|x64
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x64.Build.0 = Release|x64
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x86.ActiveCfg = Release|Win32
+		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
