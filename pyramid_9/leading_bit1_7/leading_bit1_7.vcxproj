@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{20DE5C69-E919-40D2-876A-C045E09A56D5}</ProjectGuid>
+    <ProjectGuid>{5012A8B0-0978-4B25-A624-6A8C136D0899}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>userinput_7</RootNamespace>
+    <RootNamespace>leading_bit1_7</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>userinput_7</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="userinput.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
