@@ -1,0 +1,6 @@
+This is a sample file to verify the given	 casestudy   //casestudy about file handling methods
+we worked with main(), count(),match(),remove() and replace() functions
+/* all are written in other file
+and are needed to be exectued 
+the project must me runned at a time */
+The		result must be printed on console	 desktop
