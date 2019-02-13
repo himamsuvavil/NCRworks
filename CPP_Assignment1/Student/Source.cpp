@@ -3,7 +3,7 @@
 using namespace std;
 class Student
 {
-private:
+
 	char sname[30];
 	int marks1, marks2, marks3;
 	char grade[20];
