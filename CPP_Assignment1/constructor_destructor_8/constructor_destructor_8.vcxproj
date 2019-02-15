@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C9466A0E-54DD-4286-955E-70959288364E}</ProjectGuid>
+    <ProjectGuid>{C354C482-8B64-4531-B464-2AD1715B4708}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>swap_9</RootNamespace>
+    <RootNamespace>constructor_destructor_8</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
