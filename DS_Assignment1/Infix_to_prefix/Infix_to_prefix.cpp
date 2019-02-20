@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 #define size 50
 struct stack
@@ -86,12 +87,15 @@ public:
 	}
 	void postfix()
 	{
-		int i = 0;
-		while (a[i] != '\0')
+		char *t;
+		t = new char[strlen(a)];
+		int i = strlen(a)-1;
+		int k = 0;
+		while (i>=0)
 		{
 			if (isdigit(a[i]) || isalpha(a[i]))
-				cout << a[i];
-			else if (a[i] == '(' || a[i] == '[' || a[i] == '{')
+				t[k++] = a[i];
+			else if (a[i] == ')'|| a[i] ==']' || a[i] == '}')
 				push(a[i]);
 			else
 			{
@@ -102,27 +106,29 @@ public:
 				}
 				else
 				{
-					
-					if (a[i]== ')' || a[i] == ']' || a[i] == '}')
+
+					if (a[i] == '(' || a[i] == '['||a[i] == '{')
 					{
-						while (peek() != '(')
+						while (peek() != ')')
 						{
-							cout << pop();
+							t[k++]= pop();
 						}
 						pop();
 					}
 					else
 					{
-						cout << pop();
+						t[k++]= pop();
 						push(a[i]);
 					}
-					
+
 				}
 			}
-			i++;
+			i--;
 		}
 		while (!IsEmpty())
-			cout<<pop();
+			t[k++]= pop();
+		t[k] = '\0';
+		cout <<_strrev(t) << endl;
 	}
 };
 int main()
@@ -130,7 +136,7 @@ int main()
 	_stack_ s1;
 	cout << "Enter Infix notation:\n";
 	s1.string_a();
-	cout << "Postfix Notation is:\n";
+	cout << "Prefix Notation is\n:";
 	s1.postfix();
 	cout << endl;
 	system("pause");
