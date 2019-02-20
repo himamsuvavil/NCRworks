@@ -37,12 +37,14 @@ public:
 		else if (q.rear == q.front)
 			q.rear = q.front = -1;
 		else
-			q.front--;
+			q.front = (q.front + 1) % size;
 	}
 	void display()
 	{
-		for (int i = q.front; i != q.rear; i = (i + 1) / size)
+		int i;
+		for ( i = q.front; i != q.rear; i = (i + 1) % size)
 			cout << q.qtr[i] << " ";
+		cout << q.qtr[i];
 		cout << endl;
 	}
 };
