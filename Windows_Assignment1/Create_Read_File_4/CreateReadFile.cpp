@@ -26,7 +26,7 @@ int _tmain(int argc, TCHAR *argv[])
 			ZeroMemory(BUFFER, BUFFER_SIZE);   //Initilaize BUFFER data with zeros
 			int result;
 			DWORD ReachedEnd;
-			while (1)
+			while (1)  //Until we reach end of the file
 			{
 				result = ReadFile(FileHandle, BUFFER, BUFFER_SIZE, &ReachedEnd, NULL);  //Redaing the 15 bytes of File data and storing in BUFFER
 				if (result == 0)			//when data cannot be read
@@ -41,7 +41,7 @@ int _tmain(int argc, TCHAR *argv[])
 				{
 					for (int i = 0; i < ReachedEnd; i++)  //printing every character stored in buffer
 					{
-						printf("%c", BUFFER[i]);
+						printf("%c", BUFFER[i]); 
 					}
 					
 				}
