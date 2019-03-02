@@ -1,0 +1,1 @@
+File is opened and data is written successfull
