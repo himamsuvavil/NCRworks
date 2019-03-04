@@ -20,7 +20,7 @@ int main()
 
 	Sleep(5000);		//Thread is set to waiting state for 5 seconds
 	ResumeThread(ThreadHandle1);		//Resumes the thread to run
-
+	CloseHandle(ThreadHandle1);
 	getchar();
 	return 0;
 }
