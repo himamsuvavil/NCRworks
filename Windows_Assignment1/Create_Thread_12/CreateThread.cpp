@@ -22,7 +22,7 @@ int main()
 	if (ThreadHandle1 == NULL)			//Test for failure condition of Thread creation
 		cout << "Falied to create thread";
 
-	ThreadHandle2 = CreateThread(NULL, 0, ThreadFucntion2, NULL, CREATE_SUSPENDED, &Thread1);		// //create of the thread and runs after ResumeThread(0 is called
+	ThreadHandle2 = CreateThread(NULL, 0, ThreadFucntion2, NULL, CREATE_SUSPENDED, &Thread1);		// //creates the thread and runs after ResumeThread() is called
 	if (ThreadHandle2 == NULL)			//Test for failure condition of Thread creation
 		cout << "Falied to create thread";
 	ResumeThread(ThreadHandle2);		//Resume Thread2 which is suspended state
