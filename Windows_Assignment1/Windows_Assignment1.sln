@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread_Creation_SuspendedSt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exit_Thread_API_14", "Exit_Thread_API_14\Exit_Thread_API_14.vcxproj", "{82AE7C94-8A2F-43F8-81F8-E8D4E546FBB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Terminate_Thread_ API_15", "Terminate_Thread_ API_15\Terminate_Thread_ API_15.vcxproj", "{BF9F572F-9F91-4A52-9259-418088E4F19A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{82AE7C94-8A2F-43F8-81F8-E8D4E546FBB6}.Release|x64.Build.0 = Release|x64
 		{82AE7C94-8A2F-43F8-81F8-E8D4E546FBB6}.Release|x86.ActiveCfg = Release|Win32
 		{82AE7C94-8A2F-43F8-81F8-E8D4E546FBB6}.Release|x86.Build.0 = Release|Win32
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Debug|x64.ActiveCfg = Debug|x64
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Debug|x64.Build.0 = Debug|x64
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Debug|x86.Build.0 = Debug|Win32
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Release|x64.ActiveCfg = Release|x64
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Release|x64.Build.0 = Release|x64
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Release|x86.ActiveCfg = Release|Win32
+		{BF9F572F-9F91-4A52-9259-418088E4F19A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
