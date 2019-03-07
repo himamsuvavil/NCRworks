@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate_a_number_12", "rotat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitwiseoperations_3c", "bitwiseoperations_3c\bitwiseoperations_3c.vcxproj", "{AE6A666F-483C-470D-9587-ECD91DD289B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator_CPP", "Calculator_CPP\Calculator_CPP.vcxproj", "{AE524E63-0846-439E-A709-0A4855B8B979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x64.Build.0 = Release|x64
 		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x86.ActiveCfg = Release|Win32
 		{AE6A666F-483C-470D-9587-ECD91DD289B3}.Release|x86.Build.0 = Release|Win32
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Debug|x64.ActiveCfg = Debug|x64
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Debug|x64.Build.0 = Debug|x64
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Debug|x86.Build.0 = Debug|Win32
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Release|x64.ActiveCfg = Release|x64
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Release|x64.Build.0 = Release|x64
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Release|x86.ActiveCfg = Release|Win32
+		{AE524E63-0846-439E-A709-0A4855B8B979}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

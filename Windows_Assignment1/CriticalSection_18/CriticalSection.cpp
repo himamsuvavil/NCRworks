@@ -36,14 +36,14 @@ int main()
 		if (ThreadHandle1 == NULL)
 			cout << "Failed to create Thread1\n";
 		ThreadHandle2 = CreateThread(NULL, 0, ThreadFunction2, NULL, 0, &Thread2);
-
-		/*-------------------Witing for termination of signle object-------------*/
+		if (ThreadHandle2 == NULL)
+			cout << "Failed to create Thread2\n";
+		/*-------------------Witing for termination of signal object-------------*/
 		WaitForSingleObject(ThreadHandle1, 1000);	//Waits until Thread1 is in signaled state(Thread1 will not wait for execution)
 		WaitForSingleObject(ThreadHandle2, 2000);	//Waits until Thread2 is in signaled state(Thread2 will not wait for execution)
 
 
-		if (ThreadHandle2 == NULL)
-			cout << "Failed to create Thread2\n";
+	
 
 		if (GlobalValue != 2)
 			cout << "Inconsistent\n";
